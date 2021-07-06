@@ -181,6 +181,10 @@ function esVerdadero(valor){
   //si su valor es true y “Soy falso” si su valor es false.
   //Escribe tu código aquí
 
+  if(valor){
+    return "Soy verdadero";
+  }
+  return "Soy falso";
 }
 
 function tablaDelSeis(){
@@ -193,7 +197,13 @@ function tablaDelSeis(){
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
-  
+
+  if (((numero)==100)||(numero>100)&&(numero<1000)){
+
+    return true;
+
+  }
+return false;  
 }
 
 function doWhile(numero) {
